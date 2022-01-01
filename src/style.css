@@ -1,3 +1,91 @@
-body {
-    background: #fff
+/*-----Верхние блоки-----*/
+/*Сентрируем элемент и делаем на всю ширину*/
+.features .container {
+    /*padding: 10px 0;*/
+    /*margin-left: 10px;*/
+    display: block;
+    width: 100%;
+}
+/*Сентрируем и задаем фон верхнего текста*/
+.title-content {
+    display: flex;
+    justify-content: center;
+    background: #006176;
+}
+/*Увеличиваем размер верхнего текста*/
+section h2 {
+    font-size: 38px;
+}
+/*Делаем отступы и меняем цвет верхнего текста*/
+section.features .section-heading h2 {
+    margin-top: 10px;
+    color: #f5f5f5;
+}
+
+/*Задаем фон блока с картинкой*/
+section.features {
+    background: #0594b4;
+}
+/*Делаем отступы и меняем цвет текста блока с картинкой*/
+.personal-text {
+    margin-left: 10px;
+    color: white;
+}
+
+
+/*-----Кнопка и текст про подарок-----*/
+/*Сентрируем*/
+.gift .container .row {
+    justify-content: center;
+    display: flex;
+}
+/*Задаем фон, цвет текста и добавляем отступы*/
+.gift {
+    background: #006176;
+    color: white;
+    padding-bottom: 10px;
+}
+/*Изменяем цвет кнопки*/
+.btn-primary {
+    background-color: #d31414;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: #e53232;
+}
+
+.btn-primary:active:hover {
+    background-color: #a10b0b;
+}
+
+
+/*-----Вопросы-----*/
+/*Меняем размер и цвет вопросительного знака*/
+.faq_icon {
+    font-size: 25px;
+    color: #3c4d6b
+}
+/*Сентрируем блок с вопросами*/
+.panel-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*----Убираем отступы----*/
+section.features .section-heading {
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 0 0;
+}
+
+.section-heading h2 {
+    margin-bottom: 0;
+}
+
+.blog_worp {
+    border: none;
 }
